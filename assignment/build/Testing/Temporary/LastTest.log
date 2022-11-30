@@ -1,0 +1,271 @@
+Start testing: Feb 21 13:58 CET
+----------------------------------------------------------
+1/9 Testing: NonEmptyQueue.Insert
+1/9 Test: NonEmptyQueue.Insert
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=NonEmptyQueue.Insert"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"NonEmptyQueue.Insert" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.Insert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.Insert
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyQueue.Insert" end time: Feb 21 13:58 CET
+"NonEmptyQueue.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: NonEmptyQueue.RemoveAllBackward
+2/9 Test: NonEmptyQueue.RemoveAllBackward
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=NonEmptyQueue.RemoveAllBackward"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"NonEmptyQueue.RemoveAllBackward" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.RemoveAllBackward
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.RemoveAllBackward
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:54: Failure
+Value of: queue.Remove(values[i])
+  Actual: false
+Expected: true
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyQueue.RemoveAllBackward" end time: Feb 21 13:58 CET
+"NonEmptyQueue.RemoveAllBackward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: NonEmptyQueue.RemoveAllForward
+3/9 Test: NonEmptyQueue.RemoveAllForward
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=NonEmptyQueue.RemoveAllForward"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"NonEmptyQueue.RemoveAllForward" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.RemoveAllForward
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.RemoveAllForward
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:69: Failure
+Value of: queue.Remove(values[i])
+  Actual: false
+Expected: true
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyQueue.RemoveAllForward" end time: Feb 21 13:58 CET
+"NonEmptyQueue.RemoveAllForward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: NonEmptyQueue.Find
+4/9 Test: NonEmptyQueue.Find
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=NonEmptyQueue.Find"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"NonEmptyQueue.Find" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.Find
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:83: Failure
+Value of: pElem != __null
+  Actual: false
+Expected: true
+[  FAILED  ] NonEmptyQueue.Find (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyQueue.Find
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyQueue.Find" end time: Feb 21 13:58 CET
+"NonEmptyQueue.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: NonEmptyQueue.Length
+5/9 Test: NonEmptyQueue.Length
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=NonEmptyQueue.Length"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"NonEmptyQueue.Length" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.Length
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.Length
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:94: Failure
+Expected equality of these values:
+  queue.Length()
+    Which is: 0
+  14
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:98: Failure
+Expected equality of these values:
+  queue.Length()
+    Which is: 0
+  15
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:102: Failure
+Expected equality of these values:
+  queue.Length()
+    Which is: 0
+  14
+[  FAILED  ] NonEmptyQueue.Length (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyQueue.Length
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyQueue.Length" end time: Feb 21 13:58 CET
+"NonEmptyQueue.Length" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: EmptyQueue.Insert
+6/9 Test: EmptyQueue.Insert
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=EmptyQueue.Insert"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"EmptyQueue.Insert" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyQueue.Insert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Insert
+/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/tdd_tests.cpp:111: Failure
+Value of: queue.GetHead() != __null
+  Actual: false
+Expected: true
+[  FAILED  ] EmptyQueue.Insert (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyQueue.Insert
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyQueue.Insert" end time: Feb 21 13:58 CET
+"EmptyQueue.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: EmptyQueue.Remove
+7/9 Test: EmptyQueue.Remove
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=EmptyQueue.Remove"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"EmptyQueue.Remove" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyQueue.Remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Remove
+[       OK ] EmptyQueue.Remove (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Remove" end time: Feb 21 13:58 CET
+"EmptyQueue.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: EmptyQueue.Find
+8/9 Test: EmptyQueue.Find
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=EmptyQueue.Find"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"EmptyQueue.Find" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyQueue.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Find
+[       OK ] EmptyQueue.Find (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Find" end time: Feb 21 13:58 CET
+"EmptyQueue.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: EmptyQueue.Length
+9/9 Test: EmptyQueue.Length
+Command: "/mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/tdd_test" "--gtest_filter=EmptyQueue.Length"
+Directory: /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build
+"EmptyQueue.Length" start time: Feb 21 13:58 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/rotmu/Desktop/FIT/1.BIT/2. SEM/IVS/assignment/build/googletest-master/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyQueue.Length
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Length
+[       OK ] EmptyQueue.Length (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Length" end time: Feb 21 13:58 CET
+"EmptyQueue.Length" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 21 13:58 CET
